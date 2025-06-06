@@ -13,7 +13,7 @@ export default function Home() {
         <p> Estos ayudarán a los niños a mejorar su atención y concentración, así como su habilidad estratégica y su memoria visual. También trabajarán su afán de superación al querer mejorar sus resultados y estimularán su creatividad. </p>
         <h2>Objetivo</h2>
         <p>La popularidad de nuestros juegos se debe a que cada uno de ellos incorporaran indicaciones verbales, soportes visuales y requieren el uso del mouse o pantalla táctil, siendo diseñados específicamente para abordar los diferentes estilos de aprendizaje. Así tu pequeño aprende de manera visual y auditiva. </p>
-        <h2>"Todos los aprendizajes mas importantes de la vida se hecen jugando"</h2>
+        <h2>&quot;Todos los aprendizajes mas importantes de la vida se hecen jugando&quot;</h2>
       </header>
       <JuegoCanvas />
     </main>
