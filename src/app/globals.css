@@ -1,12 +1,12 @@
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #eef1e8;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground: #0c0b0b;
   }
 }
 
@@ -40,3 +40,10 @@ a {
     color-scheme: dark;
   }
 }
+
+selector{
+  background-color: antiquewhite;
+}
+body {
+        background-color: rgb(252, 249, 249);
+    }
