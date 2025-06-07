@@ -1,6 +1,5 @@
 'use client'
-import { JuegoCanvas } from "./components/dino/game/juegoCanvas";
-
+import JuegoCanvas from "./components/juegoCanvas";
 export default function Home() {
   return (
     <main>
