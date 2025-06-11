@@ -46,8 +46,40 @@ selector {
 }
 
 body {
-  background-color: rgb(252, 249, 249);
+  position: relative;
+  /* Necesario para posicionar el pseudo-elemento */
   padding: 10px;
+  margin: 0;
+  min-height: 100vh;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("/bgImg.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: -2;
+  /* Coloca el fondo detrás del contenido */
+  filter: blur(8px);
+  /* Ajusta el valor para más/menos borrosidad */
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.24);
+  /* Negro con 50% de opacidad */
+  z-index: -1;
+  /* Entre el fondo y el contenido */
 }
 
 /*Juego Piano*/
@@ -56,30 +88,38 @@ body {
   height: 100vh;
 }
 
-h1{
+h1 {
   text-align: center;
   color: white;
   font-family: 'Courier New', Courier, monospace;
   font-size: 4rem;
-  background-color: purple;
   padding: 1.5rem;
 }
-p{
+
+p {
   text-align: justify;
 }
-.juego-colores{
-  width: 100%;
-  height: 100vh;  
-}
-.juego-contar{
+
+.juego-colores {
   width: 100%;
   height: 100vh;
 }
-.juego-tic-tac-toe{
+
+.juego-contar {
   width: 100%;
   height: 100vh;
 }
-.juego-rompecabezas{
+
+.juego-tic-tac-toe {
   width: 100%;
   height: 100vh;
+}
+
+.juego-rompecabezas {
+  width: 100%;
+  height: 100vh;
+}
+
+.Frase {
+  text-align: center;
 }
