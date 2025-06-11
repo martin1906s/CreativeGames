@@ -1,3 +1,4 @@
+"use client";
 export default function JuegoRompecabezas() {
     return (
         <div className="juego-rompecabezas">

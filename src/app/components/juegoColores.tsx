@@ -1,4 +1,4 @@
-import { link } from "fs";
+"use client";
 
 export default function JuegoColores() {
     return (

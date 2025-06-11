@@ -1,3 +1,4 @@
+"use client";
 export default function JuegoCanvas() {
     return (
         <div className="juego-piano">

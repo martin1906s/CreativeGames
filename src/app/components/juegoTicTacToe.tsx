@@ -1,3 +1,4 @@
+"use client";
 export default function JuegoTicTacToe() {
     return (
         <div className="juego-tic-tac-toe">

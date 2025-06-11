@@ -1,3 +1,4 @@
+"use client";
 export default function JuegoContar() {
     return (
         <div className="juego-contar">
