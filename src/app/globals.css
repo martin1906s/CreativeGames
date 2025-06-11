@@ -47,6 +47,7 @@ selector {
 
 body {
   background-color: rgb(252, 249, 249);
+  padding: 10px;
 }
 
 /*Juego Piano*/
@@ -59,10 +60,26 @@ h1{
   text-align: center;
   color: white;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 3.5rem;
+  font-size: 4rem;
   background-color: purple;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 p{
   text-align: justify;
+}
+.juego-colores{
+  width: 100%;
+  height: 100vh;  
+}
+.juego-contar{
+  width: 100%;
+  height: 100vh;
+}
+.juego-tic-tac-toe{
+  width: 100%;
+  height: 100vh;
+}
+.juego-rompecabezas{
+  width: 100%;
+  height: 100vh;
 }

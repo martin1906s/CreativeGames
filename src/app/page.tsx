@@ -1,5 +1,10 @@
 'use client'
 import JuegoCanvas from "./components/juegoCanvas";
+import JuegoColores from "./components/juegoColores";
+import JuegoContar from "./components/juegoContar";
+import JuegoTicTacToe from "./components/juegoTicTacToe";
+import JuegoRompecabezas from "./components/juegoRompecabezas";
+
 export default function Home() {
   return (
     <main>
@@ -18,6 +23,10 @@ export default function Home() {
         <h2>&quot;Todos los aprendizajes mas importantes de la vida se hecen jugando&quot;</h2>
       </header>
       <JuegoCanvas />
+      <JuegoColores />
+      <JuegoContar />
+      <JuegoTicTacToe />
+      <JuegoRompecabezas />
     </main>
   );
-} 
+}
