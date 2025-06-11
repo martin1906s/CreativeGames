@@ -1,9 +1,6 @@
 'use client'
 import JuegoCanvas from "./components/juegoCanvas";
-import JuegoColores from "./components/juegoColores";
-import JuegoContar from "./components/juegoContar";
-import JuegoTicTacToe from "./components/juegoTicTacToe";
-import JuegoRompecabezas from "./components/juegoRompecabezas";
+
 
 export default function Home() {
   return (
@@ -22,10 +19,6 @@ export default function Home() {
         <p>La popularidad de nuestros juegos se debe a que cada uno de ellos incorporaran indicaciones verbales, soportes visuales y requieren el uso del mouse o pantalla táctil, siendo diseñados específicamente para abordar los diferentes estilos de aprendizaje. Así tu pequeño aprende de manera visual y auditiva. </p>
       </header>
       <JuegoCanvas />
-      <JuegoColores />
-      <JuegoContar />
-      <JuegoTicTacToe />
-      <JuegoRompecabezas />
       <h2 className="Frase">&quot;Todos los aprendizajes mas importantes de la vida se hecen jugando&quot;</h2>
     </main>
   );
