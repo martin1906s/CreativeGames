@@ -168,3 +168,128 @@ nav a:hover {
   background-color: #e67e22;
   color: white;
 }
+
+.cards {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  text-align: center;
+  padding: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.card button {
+  width: 100%;
+  background-color: rgb(88, 139, 11);
+  padding: 2%;
+  font-size: 20px;
+}
+
+.card h3 {
+  font-size: 30px;
+}
+
+.card img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+
+
+/* Responsive Design */
+
+
+/* Mobile Small (hasta 360px) */
+@media (max-width: 360px) {
+  .cards {
+    flex-direction: column;
+  }
+}
+
+/* Mobile Large (361px - 480px) */
+@media (min-width: 361px) and (max-width: 480px) {
+  .cards {
+    flex-direction: column;
+  }
+}
+
+/* Tablets (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .juegos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  nav a {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+}
+
+/* Laptop (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .juegos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  nav ul {
+    justify-content: space-around;
+  }
+
+  nav a {
+    padding: 12px 18px;
+    font-size: 17px;
+  }
+}
+
+/* Laptop Large (1025px - 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .juegos {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  nav a {
+    padding: 12px 20px;
+    font-size: 18px;
+  }
+}
+
+/* 4K (1441px en adelante) */
+@media (min-width: 1441px) {
+  p {
+    font-size: 4.8rem;
+  }
+  h1 {
+    font-size: 10rem;
+  }
+  h2 {
+    font-size: 6rem;
+  }
+  a {
+    font-size: 3.5rem;
+  }
+  .card h3{
+    font-size: 4rem;
+  }
+}
