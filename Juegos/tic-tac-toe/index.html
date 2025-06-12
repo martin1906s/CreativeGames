@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="game.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Tic Tac Toe</h1>
+    </header>
+
+    <main>
+        <p>Turno</p>
+        <div class="gameboard">
+            <div class="gamecell" data-position="0"></div>
+            <div class="gamecell" data-position="1"></div>
+            <div class="gamecell" data-position="2"></div>
+            <div class="gamecell" data-position="3"></div>
+            <div class="gamecell" data-position="4"></div>
+            <div class="gamecell" data-position="5"></div>
+            <div class="gamecell" data-position="6"></div>
+            <div class="gamecell" data-position="7"></div>
+            <div class="gamecell" data-position="8"></div>
+        </div>
+        <button type="button">Reiniciar</button>
+    </main>
+
+    <dialog class="names-dialog">
+        <form>
+            <p class="title">¡Comencemos el juego!</p>
+            <p  class="player-name">
+                <label for="name1">Nombre del Jugador 1:</label>
+                <input type="text" name="name1" id="name1" maxlength="15" required>
+            </p>
+            <p  class="player-name">
+                <label for="name2">Nombre del Jugador 2:</label>
+                <input type="text" name="name2" id="name2" maxlength="15" required>
+            </p>
+            <button>Confirmar</button>
+        </form>
+    </dialog>
+
+    <dialog class="result-dialog">
+        <h1>¡El Jugador X Gana!</h1>
+    </dialog>
+</body>
+</html>

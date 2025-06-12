@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Juego de las Mezclas de los Colores Primarios</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container2">
+        <span class="pregunta">¿Cuál es el color resultante de la mezcla de estos dos colores?</span>
+    </div>
+
+    <div class="container">
+        <div id="color-circles">
+            <div id="color-circle-1" class="color-circle"></div>
+            <div id="color-circle-2" class="color-circle"></div>
+        </div>
+        <div id="answer-buttons">
+            <button onclick="checkColor('green')" class="color-button" style="background-color: green;"></button>
+            <button onclick="checkColor('purple')" class="color-button" style="background-color: purple;"></button>
+            <button onclick="checkColor('orange')" class="color-button" style="background-color: orange;"></button>
+        </div>
+        <div id="result"></div>
+		<br>
+        <button class="guess-button" onclick="nextQuestion()">Volver a Jugar</button>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
